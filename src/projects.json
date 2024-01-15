@@ -1,0 +1,32 @@
+[
+{ "id":  1,
+"img": "./assets/travel-wizard.png",
+"title":"Travel Wizard",
+"link":"https://dsciocan.github.io/Travel-Wizard/"
+}, 
+{ "id":  2,
+"img": "./assets/weather.jpg",
+"title":"Weather Dashboard",
+"link":"https://dsciocan.github.io/weather-dashboard/"
+},
+{ "id":  3,
+"img": "./assets/scheduler.jpg",
+"title":"Daily Scheduler",
+"link":"https://dsciocan.github.io/daily-schedule/"
+},
+{ "id":  4,
+"img": "./assets/readme.jpg",
+"title":"README Generator",
+"link":"https://github.com/dsciocan/README-generator"
+},
+{ "id":  5,
+"img": "./assets/generator.jpg",
+"title":"Password Generator",
+"link":"https://dsciocan.github.io/Password-Generator/"
+},
+{ "id":  6,
+"img": "./assets/coding-quiz.jpg",
+"title":"JavaScript Quiz",
+"link":"https://dsciocan.github.io/javascript-quiz/"
+}
+]

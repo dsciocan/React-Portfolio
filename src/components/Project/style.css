@@ -1,0 +1,19 @@
+#caption {
+    background-color: black;
+    opacity: 50%;
+    
+}
+
+#caption:hover {
+    opacity: 80%
+}
+
+#caption a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#caption a:hover {
+    text-decoration: dotted;
+}

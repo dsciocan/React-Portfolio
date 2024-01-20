@@ -1,6 +1,7 @@
 import React from "react"
 import Project from "../Project/project"
 import projects from "../../projects.json"
+import Header from "../Header/header"
 
 function ProjectGallery() {
 
@@ -16,6 +17,7 @@ function ProjectGallery() {
 
     return (
     <div className="container-fluid">
+    <Header/>
     <div className="row" id="project-title">
         <h2>My Projects</h2>
     </div>

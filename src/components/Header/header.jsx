@@ -1,24 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar/navbar";
 
 function Header() {
 
-    const [small, setSmall] = useState(false);
-
-    useEffect(() => {
-      if (typeof window !== "undefined") {
-        window.addEventListener("scroll", () =>
-          setSmall(window.scrollY > 200)
-        );
-      }
-    }, []);
-
     return (
     <>
-        <Navbar />
-        <header className={`header ${
-            small ? "small" : ""
-          }`}>
+        <header className="header">
             <div className="container-fluid px-4 py-5">
             <div className="row d-flex align-items-center justify-content-between">
             <div className="col-10 col-sm-8 col-lg-6">

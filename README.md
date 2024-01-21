@@ -1,8 +1,9 @@
 # React Portfolio
 ## Description
  Portfolio website made with React. It contains my introduction, links to some of my projects and ways to contact me.
+ 
+![Page screenshot](/public/screenshot.png)
 
- [screenshot]
 ## Table of Contents
 
 [Installation](#installation)

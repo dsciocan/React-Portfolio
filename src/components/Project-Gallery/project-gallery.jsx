@@ -13,7 +13,7 @@ function ProjectGallery() {
     console.log(entries)
     const cardsEl = projects.filter((project) => project.id>=4);
     const cards = cardsEl.map((el) => 
-        <Project key={el.id} captionClass={"card-img-overlay col-lg-4 col-md-8 col-sm-12"} className={"card col-lg-4"} img={el.img} title={el.title} link={el.link} height={400} width={550} repo={el.repo}/>
+        <Project key={el.id} captionClass={"card-img-overlay col-lg-4 col-md-8 col-sm-12"} className={"card col-lg-4"} img={el.img} title={el.title} link={el.link} height={400} width="col-lg-4 col-md-8 col-sm-12" repo={el.repo}/>
     )
 
     return (

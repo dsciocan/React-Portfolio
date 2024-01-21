@@ -38,9 +38,14 @@ width: 70vw;
     color:rgb(129, 148, 184);
 }
 
+#cards {
+    margin-bottom: 30px
+}
+
 #cards .card{
     margin-top: 10px;
     text-align: center;
+    margin-left: 10px;
 
 }
 

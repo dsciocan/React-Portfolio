@@ -1,6 +1,8 @@
 import React, {useRef} from "react"
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { Button } from "react-bootstrap";
+import "./style.css"
 
 function ContactForm() {
         const form = useRef();
@@ -35,7 +37,7 @@ function ContactForm() {
             <label>Message</label>
             <textarea name="message" className="form-control" placeholder="Please type your message here"/>
             </div>
-            <input type="submit" value="Send"/>
+            <Button variant="dark" type="submit">Send</Button>
           </form>
         );
       };

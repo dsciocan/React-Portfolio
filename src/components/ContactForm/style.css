@@ -1,0 +1,18 @@
+input {
+    margin-bottom: 10px;
+
+}
+
+label {
+    margin-bottom: 10px
+}
+
+Button {
+    margin-top: 10px;
+}
+
+form {
+    font-size: 20px;
+    font-weight: 350;
+    color: rgb(26, 24, 43);
+}

@@ -1,11 +1,17 @@
 footer {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(26, 24, 43);
     color: rgb(228, 231, 236);
     padding: 20px;
+    font-weight: 20;
 }
 
 footer a {
     text-decoration: none;
     color: rgb(228, 231, 236);
+    font-weight: 20;
 
+}
+
+footer a:hover {
+    color: rgb(129, 148, 184);
 }

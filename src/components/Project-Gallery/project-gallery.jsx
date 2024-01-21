@@ -2,6 +2,7 @@ import React from "react"
 import Project from "../Project/project"
 import projects from "../../projects.json"
 import Header from "../Header/header"
+import "./project-gallery.css"
 
 function ProjectGallery() {
 
@@ -12,17 +13,17 @@ function ProjectGallery() {
     console.log(entries)
     const cardsEl = projects.filter((project) => project.id>=4);
     const cards = cardsEl.map((el) => 
-        <Project key={el.id} captionClass={"card-img-overlay"} className={"card bg-dark"} img={el.img} title={el.title} link={el.link} height={400} width={550} repo={el.repo}/>
+        <Project key={el.id} captionClass={"card-img-overlay col-lg-4 col-md-8 col-sm-12"} className={"card col-lg-4"} img={el.img} title={el.title} link={el.link} height={400} width={550} repo={el.repo}/>
     )
 
     return (
     <div className="container-fluid">
     <Header/>
-    <div className="row" id="project-title">
+    <div className="d-flex justify-content-center align-items-center" id="project-title">
         <h2>My Projects</h2>
     </div>
-    <div className="container-fluid d-flex align-items-center justify-content-center">
-        <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel"> 
+    <div className="container-fluid d-flex align-items-center justify-content-center" id="carousel-container">
+        <div id="carouselExampleControls" className="carousel slide col-lg-9" data-bs-ride="carousel"> 
         <div className="carousel-inner">
         <Project className={"carousel-item active"} captionClass={"carousel-caption"} img={firstEl.img} title={firstEl.title} link={firstEl.link} height={600} repo={firstEl.repo}/>
         {entries}
@@ -37,10 +38,8 @@ function ProjectGallery() {
         </button>
         </div>
     </div>
-    <div className="row">
-    <div className="container-fluid d-flex align-items-center justify-content-evenly">
+    <div className="container-fluid d-flex align-items-center justify-content-evenly" id="cards">
         {cards}
-    </div>
     </div>
     </div>
   )

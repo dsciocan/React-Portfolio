@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(252, 253, 255);
+    border-bottom: solid 2px rgb(26, 24, 43);
+
+}
+
+
+header img {
+ width: 55%;
+ height: 60vh;
+}
+
+@media only screen and (max-width: 700px) {
+    
+header img {
+    width: 70vw;
+    height: 30vh;
+   }
+   
+}
+
+@media only screen and (max-width: 1450px) {
+    
+    header img {
+        width: 25vw;
+        height: 50vh;
+       }
+       
+    }

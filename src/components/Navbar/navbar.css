@@ -1,0 +1,24 @@
+.navbar {
+    background-color: rgb(26, 24, 43);
+}
+
+.navbar h5 {
+    color: rgb(228, 231, 236);
+    font-weight: 20;
+}
+
+.navbar h5:hover {
+    color: rgb(129, 148, 184);
+
+}
+
+.navbar-brand {
+    color: rgb(228, 231, 236);
+    padding-left: 10px;
+    font-weight: 20;
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: rgb(129, 148, 184)
+}

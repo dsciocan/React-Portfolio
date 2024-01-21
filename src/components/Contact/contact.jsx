@@ -8,21 +8,22 @@ import { MdMarkEmailRead } from "react-icons/md";
 import Header from "../Header/header";
 
 
+
 function Contact() {
 
 
 return (
     <div className="container-fluid">
     <Header/>
-    <div className="container col-lg-8">
-    <div className="row">
+    <div className="container col-lg-8" >
+    <div className="d-flex justify-content-center" id="title">
     <h3>
         Contact me
     </h3>
     </div>
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>My Contact Links</Accordion.Header>
+        <Accordion.Header className="acc-header">My Contact Links</Accordion.Header>
         <Accordion.Body>
         <h5><a href="https://www.linkedin.com/in/daniela-ciocan-631608267/"><FaLinkedin /> LinkedIn </a></h5>
         <h5><a href="https://github.com/dsciocan"><FaGithub /> GitHub</a></h5>

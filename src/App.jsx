@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react'
-// import './App.css
+import './App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/header'
 import ProjectGallery from './components/Project-Gallery/project-gallery'

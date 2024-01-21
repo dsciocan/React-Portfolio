@@ -1,0 +1,63 @@
+#project-title h2 {
+    font-size: 40px;
+    color: rgb(26, 24, 43);
+    font-weight: 400;
+    border-bottom: solid 2px ;
+    padding: 20px;
+}
+
+#project-title {
+    margin: 20px;
+}
+
+#carousel-container {
+    padding-bottom: 20px;
+}
+
+.carousel-item img {
+width: 70vw;
+
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    color: rgb(228, 231, 236);
+    font-weight: 300
+
+}
+
+.carousel-caption h5:hover {
+    color:rgb(129, 148, 184);
+}
+
+.carousel-caption a {
+    font-size: 20px;
+}
+
+.carousel-caption p:hover {
+    color:rgb(129, 148, 184);
+}
+
+#cards .card{
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+#cards h5 {
+    font-size:30px;
+    font-weight: 300;
+
+}
+
+#cards h5:hover {
+    color:rgb(129, 148, 184);
+}
+
+#cards p {
+    font-size: 20px;
+}
+
+#cards p:hover {
+    color:rgb(129, 148, 184);
+}

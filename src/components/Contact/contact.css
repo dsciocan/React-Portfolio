@@ -1,0 +1,27 @@
+#title h3 {
+    font-size: 40px;
+    color: rgb(26, 24, 43);
+    font-weight: 400;
+    border-bottom: solid 2px ;
+    padding: 20px;
+}
+
+#title {
+    margin: 20px;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+h5 a{ 
+    text-decoration: none;
+    color: rgb(26, 24, 43);
+    font-size: 30px;
+
+
+}
+
+h5 a:hover {
+    color: rgb(129, 148, 184);
+}

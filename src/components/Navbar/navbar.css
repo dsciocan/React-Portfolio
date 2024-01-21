@@ -12,13 +12,13 @@
 
 }
 
-.navbar-brand {
+.navbar a{
     color: rgb(228, 231, 236);
-    padding-left: 10px;
+    padding-left: 20px;
     font-weight: 20;
     font-size: 25px;
 }
 
-.navbar-brand:hover {
+.navbar a:hover {
     color: rgb(129, 148, 184)
 }

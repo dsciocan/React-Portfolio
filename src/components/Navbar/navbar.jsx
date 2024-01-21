@@ -5,7 +5,7 @@ import "./navbar.css"
 
 function Navbar() {
     return(
-    <div className="container-fluid sticky-top ">
+    <div className="container-fluid sticky-top">
     <div className="row m-auto">
     <nav className="navbar navbar-expand-lg">
         <a className="navbar-brand" href="/">Daniela Ciocan</a>

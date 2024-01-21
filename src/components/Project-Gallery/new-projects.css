@@ -14,7 +14,6 @@ margin-bottom: 20px;
 
 #main-card {
     padding-top: 20px;
-    font-size: 40px;
     text-align: center;
     padding-bottom: 50px;
     
@@ -22,8 +21,9 @@ margin-bottom: 20px;
 
 
 #main-card h5 {
-    font-size: 40px;
+    font-size: 60px;
     color: rgb(228, 231, 236);
+    font-weight: 300
 
 }
 #main-card h5:hover {
@@ -36,4 +36,6 @@ margin-bottom: 20px;
 
 #main-card a {
  color: rgb(228, 231, 236);
+ font-weight: 300;
+ font-size: 45px;
 }

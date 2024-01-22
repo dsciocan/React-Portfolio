@@ -17,7 +17,7 @@
 ## Installation
  No installation needed.
 ## Usage
- The website can be accessed from [the following link](daniela-ciocan-portfolio.netlify.app). 
+ The website can be accessed from [the following link](https://daniela-ciocan-portfolio.netlify.app/). 
 
  The website has three pages which can be accessed by clicking the navbar links: a home page containig my introduction and a featured project, a project gallery which contains more or my projects and links to access them, and a contact section with links to my GitHub and LinkedIn pages, as well as a functional contact form that can be used to directly send me a message. 
 

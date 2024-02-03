@@ -21,7 +21,7 @@ return (
         Contact me
     </h3>
     </div>
-    <Accordion defaultActiveKey="0">
+    <Accordion defaultActiveKey="0" className="contact">
       <Accordion.Item eventKey="0">
         <Accordion.Header className="acc-header">My Contact Links</Accordion.Header>
         <Accordion.Body>

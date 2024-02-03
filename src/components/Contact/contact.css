@@ -25,3 +25,8 @@ h5 a{
 h5 a:hover {
     color: rgb(129, 148, 184);
 }
+
+
+.contact {
+    margin-bottom: 80px;
+}

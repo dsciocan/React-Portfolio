@@ -4,6 +4,9 @@ import projects from "../../projects.json"
 import Header from "../Header/header"
 import "./project-gallery.css"
 
+
+import { Carousel } from "react-bootstrap"
+
 function ProjectGallery() {
 
     const carousel = projects.filter((project) => 1<project.id && project.id<4)
@@ -23,32 +26,47 @@ function ProjectGallery() {
         <h2>My Projects</h2>
     </div>
     <div className="container-fluid d-flex align-items-center justify-content-center" id="carousel-container">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide col-lg-9" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-  <div className="carousel-inner">
-        <Project className={"carousel-item active"} captionClass={"carousel-caption"} img={firstEl.img} title={firstEl.title} link={firstEl.link} height={600} repo={firstEl.repo}/>
-        {entries}
-        </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+    <Carousel data-bs-theme="dark" interval={2000}>
+      <Carousel.Item>
+        <img
+          className="d-block"
+          src={projects[0].img}
+          alt="First slide"
+        />
+        <Carousel.Caption className="carousel-caption" id="caption">
+        <a href={projects[0].link}><h5>{projects[0].title}</h5></a>
+        <a href={projects[0].repo}><p>GitHub Repo</p></a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block"
+          src={projects[1].img}
+          alt="Second slide"
+        />
+        <Carousel.Caption className="carousel-caption" id="caption">
+        <a href={projects[1].link}><h5>{projects[1].title}</h5></a>
+        <a href={projects[1].repo}><p>GitHub Repo</p></a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block"
+          src={projects[2].img}
+          alt="Third slide"
+        />
+        <Carousel.Caption className="carousel-caption" id="caption">
+        <a href={projects[2].link}><h5>{projects[2].title}</h5></a>
+        <a href={projects[2].repo}><p>GitHub Repo</p></a>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
 </div>
     <div className="container-fluid d-flex align-items-center justify-content-evenly" id="cards">
         {cards}
     </div>
-    </div>
+    </div >
   )
 
 }

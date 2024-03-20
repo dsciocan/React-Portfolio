@@ -7,7 +7,7 @@ header {
 
 
 header img {
-    display: block;
+display: block;
  max-width: 55%;
  max-height: 50vh;
  width: auto;
@@ -16,27 +16,11 @@ header img {
 
 #head-link {
     text-decoration: none;
-    color: rgb(26, 24, 43);
+    color: rgb(112, 97, 241);
 }
 
 #head-link:hover {
-    color: rgb(138, 129, 217);
+    color: rgb(26, 24, 43);
 }
 
-/* @media only screen and (max-width: 700px) {
-    
-header img {
-    width: 70vw;
-    height: 30vh;
-   }
-   
-}
 
-@media only screen and (max-width: 1450px) {
-    
-    header img {
-        width: 25vw;
-        height: 50vh;
-       }
-       
-    } */

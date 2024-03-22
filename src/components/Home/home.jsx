@@ -4,8 +4,8 @@ import "./style.css"
 
 function Home() {
     return (
-        <div className="container-fluid">
-        <Header />
+        <div id="home" className="container-fluid">
+        <Header/>
         <NewProject/>
         </div>
     )

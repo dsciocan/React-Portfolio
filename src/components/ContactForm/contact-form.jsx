@@ -9,7 +9,6 @@ function ContactForm() {
         
         const sendEmail = (e) => {
             e.preventDefault();
-        
             emailjs.sendForm('service_dw59tv6', 'template_6tkjezw', form.current, '4SrWxRGBGu4LHZHC6')
               .then((result) => {
                   console.log(result.text);
@@ -19,12 +18,17 @@ function ContactForm() {
 
           // Clears the form after sending the email
           e.target.reset();
+          const messageDiv = document.getElementById("message");
+          messageDiv.classList.remove("hidden")
+          setTimeout(()=> {
+            messageDiv.classList.add("hidden")
+          }, 2000);
           };
           
 
 
         return (
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} id="form">
             <div className="form-group">
             <label for="name" >Name</label>
             <input type="text" name="user_name" className="form-control" placeholder="Name"/>
@@ -38,6 +42,9 @@ function ContactForm() {
             <textarea name="message" className="form-control" placeholder="Please type your message here"/>
             </div>
             <Button variant="dark" type="submit">Send</Button>
+            <div id="message" className="hidden">
+              <p>Your message has been sent!</p>
+            </div>
           </form>
         );
       };

@@ -9,14 +9,14 @@ import { Carousel } from "react-bootstrap"
 
 function ProjectGallery() {
 
-    const carousel = projects.filter((project) => 1<project.id && project.id<4)
-    const firstEl = projects[0]
-    console.log(carousel)
-    const entries = carousel.map((element) => <Project key={element.id} captionClass={"carousel-caption"} className={"carousel-item"} img={element.img} title={element.title} link={element.link} height={600} repo={element.repo}/>)
-    console.log(entries)
+    // const carousel = projects.filter((project) => 1<project.id && project.id<4)
+    // const firstEl = projects[0]
+    // console.log(carousel)
+    // const entries = carousel.map((element) => <Project key={element.id} captionClass={"carousel-caption"} className={"carousel-item"} img={element.img} title={element.title} link={element.link} height={600} repo={element.repo}/>)
+    // console.log(entries)
     const cardsEl = projects.filter((project) => project.id>=4);
     const cards = cardsEl.map((el) => 
-        <Project key={el.id} captionClass={"card-img-overlay col-lg-4 col-md-8 col-sm-12"} className={"card col-lg-4"} img={el.img} title={el.title} link={el.link} height={400} width="col-lg-4 col-md-8 col-sm-12" repo={el.repo}/>
+        <Project key={el.id} captionClass={"card-img-overlay col-lg-5 col-md-8 col-sm-12"} className={"card col-lg-4"} img={el.img} title={el.title} link={el.link} repo={el.repo}/>
     )
 
     return (

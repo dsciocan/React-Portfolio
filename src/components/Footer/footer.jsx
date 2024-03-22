@@ -8,9 +8,8 @@ return (
   <span className="mb-3 mb-md-0">2024 Daniela Ciocan</span>
 </div>
 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-  <li className="ms-3"><a href="https://github.com/dsciocan">Profile</a></li>
+  <li className="ms-3"><a href="https://github.com/dsciocan">GitHub Profile</a></li>
   <li className="ms-3"><a href="https://github.com/dsciocan/React-Portfolio">Repo</a></li>
-  <li className="ms-3"><a href="https://docs.google.com/document/d/1yBdz1xNkIWHQGj8r4qqB2yG-ZT0M-LCJmvnAcHOuQGs/edit?usp=sharing">Resume</a></li>
 </ul>
 </footer>
 )

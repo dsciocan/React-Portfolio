@@ -16,3 +16,7 @@ form {
     font-weight: 350;
     color: rgb(26, 24, 43);
 }
+
+.hidden {
+    display:none;
+}

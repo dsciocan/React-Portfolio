@@ -12,8 +12,8 @@ return (
     <h2>Featured Project</h2>
     </div>
     <div className="container-fluid d-flex justify-content-center align-items-center">
-        <div className="row col-lg-9 col-md-10 col-sm-10" id="main-card">
-        <Project key={newProj.id} captionClass={"card-img-overlay"} className={"card"} img={newProj.img} title={newProj.title} link={newProj.link} width={"col-lg-9 col-md-10 col-sm-10"} repo={newProj.repo}/>
+        <div className="row" id="main-card">
+        <Project key={newProj.id} captionClass={"card-img-overlay"} className={"card"} img={newProj.img} title={newProj.title} link={newProj.link} repo={newProj.repo}/>
         </div>
     </div>
     </>

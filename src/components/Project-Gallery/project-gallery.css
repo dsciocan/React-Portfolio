@@ -39,18 +39,22 @@ width: 70vw;
 }
 
 #cards {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+
 }
 
 #cards .card{
     margin-top: 10px;
     text-align: center;
     margin-left: 10px;
+    width: 30vw;
+    height: 400px;
 
 }
 
+
 #cards h5 {
-    font-size:30px;
+    font-size:25px;
     font-weight: 300;
 
 }
@@ -66,3 +70,4 @@ width: 70vw;
 #cards p:hover {
     color:rgb(129, 148, 184);
 }
+
